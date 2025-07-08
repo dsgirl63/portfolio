@@ -5,39 +5,33 @@ import { Calendar, Download, GraduationCap } from 'lucide-react';
 const Timeline = () => {
   const timelineEvents = [
     {
-      year: '2022',
+      year: '2023',
       title: 'Started B.Tech in Data Science',
-      description: 'Began my journey at Jaipur Engineering College, Kukas',
+      description: 'Began my studies at Jaipur Engineering College, Kukas. Excited to embark on my journey in Data Science!',
       icon: <GraduationCap className="w-5 h-5" />
     },
     {
-      year: '2023',
-      title: 'Foundation Building',
-      description: 'Mastered Python, SQL, C++, and completed first data projects',
-      icon: <Calendar className="w-5 h-5" />
-    },
-    {
       year: '2024',
-      title: 'Advanced Skills',
-      description: 'Developed expertise in Excel, Power BI, Machine Learning, and AI',
+      title: '2nd Year: Building Strong Foundations',
+      description: 'Currently mastering Python, SQL, C++, and working on foundational data projects. Actively participating in college activities and exploring core subjects.',
       icon: <Calendar className="w-5 h-5" />
     },
     {
       year: '2025',
-      title: 'Application Development',
-      description: 'Built multimodal applications using Streamlit and SQL-based solutions',
+      title: '3rd Year: Advanced Skills & Projects',
+      description: 'Looking forward to developing expertise in Excel, Power BI, Machine Learning, and AI. Planning to take on more advanced projects and internships.',
       icon: <Calendar className="w-5 h-5" />
     },
     {
       year: '2026',
-      title: 'Real-World Integration',
-      description: 'Working on industry-level integration projects and internships',
+      title: '4th Year: Real-World Experience',
+      description: 'Aiming to build real-world applications and work on industry-level integration projects and internships.',
       icon: <Calendar className="w-5 h-5" />
     },
     {
       year: '2027',
       title: 'Expected Graduation',
-      description: 'Completing B.Tech with specialization in Data Science',
+      description: 'Will complete B.Tech with specialization in Data Science.',
       icon: <GraduationCap className="w-5 h-5" />
     }
   ];
