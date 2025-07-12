@@ -120,7 +120,7 @@ const About = () => {
               <div className="p-3 bg-purple-400/20 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <Target className="w-8 h-8 text-purple-400" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">3+ Years</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">2+ Years</h3>
               <p className="text-gray-300 text-sm">Experience in programming and data science</p>
             </div>
             <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
