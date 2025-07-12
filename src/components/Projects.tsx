@@ -5,46 +5,46 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: 'SocialHub',
+      description: '🚀 SocialHub is a powerful communication automation app built with Python and Streamlit. It lets you send messages and posts across WhatsApp, Email, SMS, Instagram, Facebook, Twitter, LinkedIn, and even phone calls — all from one simple interface.',
+      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
+      github: 'https://github.com/dsgirl63/MessageHub.git',
+      tags: ['#FullStack', '#Python', '#Streamlit', '#Automation', '#SocialMedia']
+    },
+    {
+      title: 'TrustPeek',
+      description: 'TrustPeek is an AI-driven tool that assesses apps and websites using Google\'s Gemini model. It quickly generates structured reviews covering: 🔍 Key features & updates, ⭐ User experience & ratings insights, 🛡️ Security advice & risk flags, ✅ Final verdict: whether the app/website is secure or not',
+      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
+      github: 'https://github.com/dsgirl63/TrustPeek.git',
+      tags: ['#AI', '#Gemini', '#Security', '#Python', '#WebAssessment']
+    },
+    {
       title: 'Breast Cancer Analysis',
-      description: 'Advanced machine learning model for breast cancer prediction using clinical data',
+      description: 'Advanced machine learning model for breast cancer prediction using clinical data with high accuracy and real-world healthcare applications',
       image: 'https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com/dsgirl63/Breast-Cancer-Analysis-Project.git',
       tags: ['#AI', '#MachineLearning', '#Python', '#Sklearn', '#Healthcare']
     },
     {
       title: 'House Price Prediction',
-      description: 'Predictive model for real estate pricing using regression algorithms',
+      description: 'Predictive model for real estate pricing using regression algorithms with comprehensive data analysis and market insights',
       image: 'https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com/dsgirl63/House-Price-Prediction.git',
       tags: ['#ML', '#Regression', '#Python', '#DataAnalysis', '#RealEstate']
     },
     {
       title: 'Smart Inventory Expiry Predictor',
-      description: 'Intelligent system for predicting product expiry dates and managing inventory',
+      description: 'Intelligent system for predicting product expiry dates and managing inventory with automated alerts and business intelligence',
       image: 'https://images.pexels.com/photos/3985062/pexels-photo-3985062.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com/dsgirl63/Smart-Inventory-Expiry-Predictor.git',
       tags: ['#AI', '#Inventory', '#Python', '#Streamlit', '#BusinessIntelligence']
     },
     {
-      title: 'MessageHub App',
-      description: 'Full-stack messaging application with SQL database integration',
-      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/dsgirl63/Project-with-SQL-and-python.git',
-      tags: ['#FullStack', '#SQL', '#Python', '#WebDevelopment', '#Database']
-    },
-    {
       title: 'AWI Chatbot',
-      description: 'AI-powered chatbot with natural language processing capabilities',
+      description: 'AI-powered chatbot with natural language processing capabilities for intelligent customer service and automation',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com/dsgirl63/AIW.git',
       tags: ['#AI', '#NLP', '#Chatbot', '#Python', '#MachineLearning']
-    },
-    {
-      title: 'Chat Box UI',
-      description: 'Modern and responsive chat interface with real-time messaging',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/dsgirl63/chat-box.git',
-      tags: ['#UI/UX', '#JavaScript', '#WebDevelopment', '#RealTime', '#Frontend']
     }
   ];
 
@@ -61,7 +61,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Explore my data science and development projects showcasing AI, ML, and full-stack capabilities
+            Explore my innovative projects showcasing AI, ML, automation, and full-stack development capabilities
           </p>
         </motion.div>
 
@@ -85,13 +85,13 @@ const Projects = () => {
               
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4">{project.description}</p>
+                <p className="text-gray-300 mb-4 text-sm leading-relaxed">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-2 py-1 bg-blue-400/20 text-blue-300 rounded-full text-sm"
+                      className="px-2 py-1 bg-blue-400/20 text-blue-300 rounded-full text-xs"
                     >
                       {tag}
                     </span>
